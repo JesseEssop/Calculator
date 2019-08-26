@@ -9,7 +9,6 @@ function Caluculate(num) {
     var string = "";
     arr.push(num.target.value)
     for (var i = 0; i < arr.length; i++) {
-       arr[i].split("")
         string += arr[i]
         
         console.log(string)
